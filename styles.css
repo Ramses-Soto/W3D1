@@ -1,0 +1,86 @@
+html, body, h1, head{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 238);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: goldenrod;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+nav > .web-title{
+    color: white;
+    display: inline-block;
+    position: fixed;
+    top: 5px;
+    left: 40px;
+}
+
+nav > .web-title h1{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+nav > .links{
+    position: fixed;
+    display: inline-block;
+    top: 5px;
+    right: 20px;
+}
+
+nav > .links a{
+    color: white;
+    font-size: 16px;
+}
+
+.info {
+    text-align: center;
+    margin: 57px 0 100px;
+}
+
+.info > .info-section {
+    border: 1.5px solid goldenrod;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    margin: 8px 2px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+
+.info > .info-section > .info-header h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 2px;
+}
+
+.info > .info-section > .info-p{
+    margin-left: 8px;
+}
+
+.info > .info-section > .info-p p{
+    font-size: 12px;
+}
+
+.info > .info-section > .more-info{
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 3px;
+    padding: 2px;
+    text-align: center;
+}
